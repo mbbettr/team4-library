@@ -1,8 +1,8 @@
 pipeline{
     agent any{
         stages{
-            stage{ 1
-                step(1 build){
+            stage('1-repoclone'){
+                step{
                     sh 'df-h'
                 }
             }
